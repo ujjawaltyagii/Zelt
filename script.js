@@ -202,9 +202,9 @@ gsap.to(imageSeq, {
   ease: `none`,
   scrollTrigger: {
     scrub: 0.15,
-    trigger: `#page1`,
+    trigger: `#page1>canvas`,
     start: `top top`,
-    end: `600% top`,
+    end: `300% top`,
     scroller: `#main`,
   },
   onUpdate: render,
@@ -238,10 +238,10 @@ function scaleImage(img, ctx) {
 }
 ScrollTrigger.create({
 
-  trigger: "#page1",
+  trigger: "#page1>canvas",
   pin: true,
   // markers:true,
   scroller: `#main`,
   start: `top top`,
-  end: `600% top`,
+  end: `300% top`,
 });
