@@ -248,25 +248,257 @@ canvas{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-left: 10vw;
+    padding-left: 12.5vw;
     height: 100%;
     width: 50%;
 }
 
 .right{
+    position: relative;
     height: 100%;
     width: 50%;
-    background-color: blue;
 }
 
 .left>h1{
-    font-size: 2.8vw;
+    font-size: 3.3vw;
     font-weight: 600;
 }
 
 .left>h4{
+    margin-top: 20px;
     font-size: 1.2vw;
     font-weight: 500;
-    color: #4a4a4a85;
-    width: 55%;
+    color: #4a4a4ad3;
+    width: 67%;
+}
+
+.right>video{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 100%;
+}
+
+#page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 0 0.5vw;
+    justify-content: space-between;
+}
+
+.left7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 4.5vw;
+    height: 100%;
+    width: 50%;
+}
+
+.right7{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.left7>h1{
+    font-size: 3.3vw;
+    font-weight: 600;
+}
+
+.left7>h4{
+    margin-top: 20px;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #4a4a4ad3;
+    width: 65%;
+}
+
+.right7>video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 12vw;
+    height: 100%;
+    width: 50%;
+}
+
+.right8{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.left8>h1{
+    font-size: 3.3vw;
+    font-weight: 600;
+}
+
+.left8>h4{
+    margin-top: 20px;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #4a4a4ad3;
+    width: 79%;
+}
+
+.right8>img{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 65%;
+}
+
+#page9{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#footer{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2F2F2F;
+    padding: 1vw 13vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#upper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+#upper>h1{
+    font-size: 5vw;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+#upper>button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 18px 22px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    background-color: #ffcd6d;
+    color: black;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+#upper>button:hover{
+    background-color: #FFD687;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button>#line{
+    height: 200%;
+    width: 1px;
+    margin: 0 10px;
+    background-color: rgba(0, 0, 0, 0.366);
+}
+
+button>i{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#linee{
+    height: 0.7px;
+    width: 100%;
+    background-color: rgba(126, 126, 126, 0.64);
+}
+
+#lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.971);
+    /* padding: 5vh 0; */
+}
+
+#links1{
+    display: flex;
+    flex-direction: column;
+}
+
+#links1>img{
+    width: 25%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#cons{
+    display: flex;
+    gap: 15px;
+}
+
+#cons>i{
+    background-color: rgb(85, 85, 85);
+    padding: 11px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#cons>i:hover{
+    background-color: #4a4a4a;
+    transition: 0.5s ease;
+}
+
+#links2{
+    display: flex;
+    gap: 5vw;
+    color: rgb(255, 255, 255);
+}
+
+#links2 h4{
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+#links2 h3{
+    font-size: 1vw;
+    font-weight: 400;
+    margin-bottom: 0.5vh;
+}
+
+#links2 h3:hover{
+    color: #ffc75f;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
