@@ -3,7 +3,6 @@
 - Hosted using Netlify
 - Tech: JavaScript, CSS, HTML
 - LIVE Hosted link: [zelt-3d](https://zelt-3d.netlify.app/)
+- Completely responsive!
 
-Note: As of now, only the web view is available, so please view it on a larger screen (desktop/laptop)!
-
-work in progress...
+Made by me :)
